@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Cristian Rajani 2018
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="redstage::base" title="Redstage" module="Redstage_Banner" sortOrder="90" resource="Redstage_Banner::sample"/>
+        <add id="redstage_banner::banner" title="Banners" module="Redstage_Banner" sortOrder="10" parent="redstage::base" action="redstage_banner/items/" resource="Redstage_Banner::items"/>
+    </menu>
+</config>

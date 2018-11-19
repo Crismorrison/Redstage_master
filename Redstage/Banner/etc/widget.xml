@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget class="Redstage\Banner\Block\Widget\Banners" id="redstage_banners">
+		<label>Redstage Banner</label>
+		<description>Insert Banner by Name</description>
+<parameters>
+                	<parameter name="name" xsi:type="select" required="true" visible="true"
+                		source_model="Redstage\Banner\Model\Config\BannerGroups">
+						<label translate="true">Name</label>
+					</parameter>
+                </parameters>
+	</widget>
+</widgets>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+            <referenceContainer name="page.top">
+                    <block template="Redstage_Banner::banner.phtml" banner_id="1" name="redstage.banner.page.top" after="catalog.topnav">
+                            <action method="setPosition">
+                                    <argument name="position" xsi:type="string">menu-top</argument>
+                            </action>
+                    </block>
+            </referenceContainer>
+    </body>
+</page>

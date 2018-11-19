@@ -1,0 +1,9 @@
+<?php
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $model=$objectManager->create('Redstage\Banner\Model\Items');
+    $datacollection=$model->getCollection();
+
+    foreach ($datacollection as $data) {
+            echo $data->getContent();
+    }
+?>
