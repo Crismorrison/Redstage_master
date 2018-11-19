@@ -1,6 +1,6 @@
 # Banner Module
 
-**Banner Module for Magento 2** This module allows you to create and manage content like a banner and display in all pages in top position.
+**Banner Module for Magento 2** This module allows you to create and manage content like a banner, store in database, and display in all pages in top position.
 
 
 
